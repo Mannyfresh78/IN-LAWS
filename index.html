@@ -7,16 +7,36 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-body,h1,h2{font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-p {line-height: 2}
-.bgimg, .bgimg2 {
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
+body, h1, h2 {
+  font-family: "Raleway", sans-serif;
 }
-.bgimg {background-image: url("https://github.com/Imb2023/IN-LAWS/blob/main/photo_2024-02-01_23-31-13.jpg?raw=true")}
-.bgimg2 {background-image: url("https://github.com/Imb2023/IN-LAWS/blob/main/3215sg5.jpg?raw=true")}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(0,0,0,0.27);
+  
+    /* Ensure there's no default margin */
+}
+
+p {
+  line-height: 2;
+}
+
+.bgimg, .bgimg2 {
+  height: 100%; /* Ensure it covers the full screen or parent element */
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent background repeat */
+  background-size: cover; /* Cover the entire area */
+}
+
+.bgimg {
+  background-image: url("1708580293444.png");
+}
+
+.bgimg2 {
+  background-image: url("1123.jpg");
+}
 </style>
 </head>
 <body>
@@ -24,31 +44,28 @@ p {line-height: 2}
 <!-- Header / Home-->
 <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
   <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo">IN-LAWS</h1>
-<!--     AQUI ARRIBA ES DONDE CAMBIAS EL NOMBRE DE TU EQUIPO NO PASES ESTO </h1> -->
-    <h2>NUESTRO NUEVO SITIO</h2>
-    <h2><b>bien</b>venidos</h2>
+    <h1 class="w3-jumbo">INLAWS</h1>
+    <h2>WEBSITE</h2>
+    <h2><b>WELCOME </b>TO OUR SITE</h2>
   </div>
 </header>
 
-<!-- Navbar (sticky bottom) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Hogar</a>
-    <a href="#us" style="width:25%" class="w3-bar-item w3-button">sobre IN-LAWS</a>
-    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">  <B>FOTOS</B> </a>
-    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black"> FECHAS </a>
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">HOME</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">INLAWS</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">  <B>HIGHLIGHTS</B> </a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black"> INFORMATION </a>
   </div>
 </div>
 
-<!-- About / Jane And John -->
+<!-- About / INLAWS -->
 <div class="w3-container w3-padding-64 w3-blue w3-grayscale-min" id="us">
   <div class="w3-content">
     <h1 class="w3-center w3-text-grey"><b>manny</b></h1>
-    <img class="w3-round w3-grayscale-min" src="https://i.imgur.com/bWxJuH4.jpeg" style="width:100%;margin:32px 0">
-    <p><i>informacion de el equipo como cuando lo hiciste</i>
+    <p><i>INFO</i>
     </p><br>
-    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Detalles</a></p>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">about our team </a></p>
   </div>
 </div>
 
@@ -60,14 +77,34 @@ p {line-height: 2}
   </div>
 </div>
 
-<!-- Wedding information -->
+<!-- team information -->
 <div class="w3-container w3-padding-64 w3-grey w3-grayscale-min w3-center" id="wedding">
   <div class="w3-content">
-    <h1 class="w3-text-grey"><b>EQUIPO</b></h1>
-    <video playsinline autoplay loop muted style="min-width:50%; min-height:50%;margin:64px 0" >
- 	<source type="video/mp4" src="https://github.com/Imb2023/IN-LAWS/blob/main/I-walk-line1.mp4">
- 	<source type="video/webm" src="https://github.com/Imb2023/IN-LAWS/blob/main/I-walk-line1.mp4">
+    <h1 class="w3-text-grey"><b>team</b></h1>
+    <video width="320" height="240" controls playsinline autoplay muted>
+  <source src="112.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
+<video width="320" height="240" controls playsinline autoplay muted>
+  <source src="1122.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>  
+    <video width="320" height="240" controls playsinline autoplay muted>
+  <source src="video_2024-02-09_21-39-25.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+  <!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+  <!-- Images (Portfolio) -->
+  <img src="photo_1_2024-02-09_21-39-25.jpg" alt="Ocean" class="w3-image" width="1000" height="500">
+  <img src="photo_2_2024-02-09_21-39-25.jpg" alt="Ocean II" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="photo_3_2024-02-09_21-39-25.jpg" alt="Falls" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="photo_5_2024-02-09_21-39-25.jpg" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="photo_7_2024-02-09_21-39-25.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="photo_8_2024-02-09_21-39-25.jpg" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="photo_6_2024-02-09_21-39-25.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="photo_9_2024-02-09_21-39-25.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500">
     <div class="w3-row">
       <div class="w3-half">
         <h2>When</h2>
